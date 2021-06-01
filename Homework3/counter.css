@@ -1,0 +1,30 @@
+#container {
+    width: 800px;
+    height: 600px;
+    background-color: lightgrey;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#number {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px; 
+    padding: 0;
+    margin: 0;
+}
+
+#buttonRow {
+    height: 30%;
+    display: flex;
+    
+
+}
+.button {
+    width: 50%;
+    font-size: 70px;
+}

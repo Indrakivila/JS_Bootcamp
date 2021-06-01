@@ -1,0 +1,52 @@
+#top {
+    height: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  90px;
+    text-align: center;
+    color: tomato
+}
+
+#mid {
+    height: 35%;
+    text-align: center;
+    user-select: none;
+}
+    
+}
+
+#bot {
+    height: 50%;
+}
+
+.letterContainer {
+    width: 100px;
+    height:  100px;
+    border-bottom: 2px solid black;
+    display: block;
+    margin-right: 20px;
+    text-align: center;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letterContainer:hover {background-color: rgb(228, 224, 224);}
+
+.guassWord {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.keyboardRow {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.keyboardLetter {
+    border:  1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
