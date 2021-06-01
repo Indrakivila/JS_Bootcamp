@@ -32,4 +32,4 @@ function draw(startX, startY, len, angle, branchWidth) {
 
 }
 
-draw(400, 800, 150, 0, 4)
+draw(400, 750, 150, 0, 4)
